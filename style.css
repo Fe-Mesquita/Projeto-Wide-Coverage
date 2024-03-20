@@ -1,0 +1,126 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-menu {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 32px;
+    letter-spacing: 0.875px;
+}
+
+.button-sing-up {
+    background: #6FBF44;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    border: none;
+    cursor: pointer;
+    line-height: 24px;
+    font-weight: 500px;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+img {
+    margin: 163px 0 0 123px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700px;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    width: 493px;
+}
+
+p {
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.button-learn-main {
+    color: #6FBF44;
+    background: #FFFFFF;
+    cursor: pointer;
+    width: 112px;
+    line-height: 27px;
+    font-weight: 500px;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 1300px) {
+    div {
+        display: contents;
+    }
+
+    .link-menu {
+        display: none;
+    }
+
+    .button-sing-up {
+        border: 1px solid #4CB538;
+        border-radius: 6px;
+        margin: 17px 0px 0px 210px;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        width: auto;
+        text-align: center;
+        margin: 42px 55px 0px 57px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        width: auto;
+        text-align: center;
+        margin: 29px 43px 0px 43px;
+    }
+
+    .img-main {
+        margin: 334px 39px 0 19px;
+        max-width: 90%;
+        position: absolute;
+    }
+
+    .button-learn-main {
+        margin-right: 150px;
+        margin: 26px auto;
+        display: block;
+    }
+}
