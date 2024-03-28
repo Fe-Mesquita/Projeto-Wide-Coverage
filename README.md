@@ -15,4 +15,5 @@
    <br>
    Com aplicação de responsividade, para visualização em computadores, celulares e tablets.
    <br>
-   <img 
+   <br>
+   <img src="https://github.com/Fe-Mesquita/Projeto-Wide-Coverage/blob/master/img/imagem.png?raw=true">
